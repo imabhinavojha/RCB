@@ -3,11 +3,18 @@
 Use the package manager [mvnrepository](https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple/1.1) to install json-simple.
 
 ```bash
-<dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1</version>
-</dependency>
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+			<scope>test</scope>
+		</dependency>
 ```
 
 ## Usage
